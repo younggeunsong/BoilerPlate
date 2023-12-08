@@ -5,7 +5,7 @@
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
-    "npm": "6.9.0"
+    "npm": "10.2.3"
   },
   "scripts": {
     "start": "node server/index.js",
@@ -13,7 +13,7 @@
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "SONG",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -24,7 +24,8 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
-    "mongoose": "^5.4.20",
+    "mongodb": "^5.9.2",
+    "mongoose": "^5.13.21",
     "react-redux": "^5.0.7",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
